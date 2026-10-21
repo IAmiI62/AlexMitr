@@ -228,7 +228,7 @@ val = 1
 for char in 'abcdefghijklmnopqrstuvwxyz':
     for num in range(100):
         var_name = f"{char}{num}"
-        globals()[var_name] = val
+        globals()[name] = val
         val += 1
 print(a0)  # 1
 print(z99) # 2600
