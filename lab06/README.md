@@ -224,12 +224,16 @@ print("id(a) == id(c):", id(a) == id(c)) # False
 от* **a0** *до* **a99**, *от* **b0** *до* **b99** *и так далее, от* **z0** *до* **z99**. 
 *Присвойте всем переменным различные значения от 1 до 2600.*
 ```
+variables = {}
 val = 1
+
 for char in 'abcdefghijklmnopqrstuvwxyz':
+  
     for num in range(100):
-        var_name = f"{char}{num}"
-        globals()[name] = val
+        name = f"{char}{num}"
+        variables[name] = val
         val += 1
-print(a0)  # 1
-print(z99) # 2600
+
+print(variables['a0'])   # Выведет: 1
+print(variables['z99'])  # Выведет: 2600
 ```
