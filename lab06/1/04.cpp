@@ -2,8 +2,8 @@
 #include <cmath>
 
 int main() {
-    double x = 0; // Обязательно объявляем x
-    constexpr auto Pi = std::acos(x) * 2; // ОШИБКА КОМПИЛЯЦИИ
+    double x = 0; 
+    constexpr auto Pi = std::acos(x) * 2; 
     std::cout << Pi << std::endl;
     return 0;
 }
