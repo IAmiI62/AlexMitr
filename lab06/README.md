@@ -113,17 +113,17 @@ print(s)
 #include <iostream>
 
 namespace FirstSpace {
-    int value = 10; 
+int value = 10; 
 }
 
 namespace SecondSpace {
-    int value = 20; 
+int value = 20; 
 }
 
 int main() {
-    std::cout << "First: " << FirstSpace::value << std::endl;
-    std::cout << "Second: " << SecondSpace::value << std::endl;
-    return 0;
+std::cout << "First: " << FirstSpace::value << std::endl;
+std::cout << "Second: " << SecondSpace::value << std::endl;
+return 0;
 }
 
 ### Задание 6 **(2)**
