@@ -227,6 +227,6 @@ for char in 'abcdefghijklmnopqrstuvwxyz':
         globals()[var_name] = val
         val += 1
 
-# Проверка
+ Проверка
 print(a0)  # 1
 print(z99) # 2600
