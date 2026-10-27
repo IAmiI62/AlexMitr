@@ -19,7 +19,7 @@
 ‎
 ‎### Код
 ‎
-‎```python
+‎```
 ‎n = int(input())
 ‎classes = (n + 24) // 25  # ceil(n / 25)
 ‎small = n // classes
@@ -54,7 +54,7 @@
 ‎
 ‎### Код
 ‎
-‎```python
+‎```
 ‎t = int(input())
 ‎for _ in range(t):
 ‎    n = int(input())
@@ -95,7 +95,7 @@
 ‎
 ‎### Код
 ‎
-‎```python
+‎```
 ‎import sys
 ‎input = sys.stdin.readline
 ‎
@@ -139,7 +139,7 @@
 ‎
 ‎### Код
 ‎
-‎```python
+‎```
 ‎n = int(input())
 ‎nums = list(map(int, input().split()))
 ‎result = []
